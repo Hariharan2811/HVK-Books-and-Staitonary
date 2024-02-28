@@ -39,3 +39,18 @@ To set up the HVK Books & Stationary platform locally, follow these steps:
 6. Run the Flask application.
 7. Access the platform via the provided URL or localhost address.
 8. Access the platform via the provided URL or localhost address.
+![Screenshot 2024-02-28 110902](https://github.com/Hariharan2811/HVK-Books-and-Staitonary/assets/153824797/392650d3-9fd9-4f31-b8da-9ec91c76a43d)
+
+![Screenshot 2024-02-28 110931](https://github.com/Hariharan2811/HVK-Books-and-Staitonary/assets/153824797/fe40e939-9564-4a1b-98a8-9a05926059c9)
+
+![Screenshot 2024-02-28 111023](https://github.com/Hariharan2811/HVK-Books-and-Staitonary/assets/153824797/9cc2db8f-acc8-40ef-a130-0cd143171b98)
+
+![Screenshot 2024-02-28 111105](https://github.com/Hariharan2811/HVK-Books-and-Staitonary/assets/153824797/1dd54755-15fe-42bb-bd4e-ad1b89c6df41)
+
+![Screenshot 2024-02-28 111137](https://github.com/Hariharan2811/HVK-Books-and-Staitonary/assets/153824797/cd3f237f-c3cf-45f3-8623-f01f4ae92098)
+
+![Screenshot 2024-02-28 111156](https://github.com/Hariharan2811/HVK-Books-and-Staitonary/assets/153824797/acb33543-665f-404e-9909-377e106d3ff4)
+
+![Screenshot 2024-02-28 111226](https://github.com/Hariharan2811/HVK-Books-and-Staitonary/assets/153824797/7a6414c9-26c5-4b1b-992f-3b607654507b)
+
+![Screenshot 2024-02-28 111249](https://github.com/Hariharan2811/HVK-Books-and-Staitonary/assets/153824797/e97c7a25-6b67-4f2f-b470-5eae93053f96)
