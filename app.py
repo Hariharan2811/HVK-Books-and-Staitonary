@@ -254,10 +254,6 @@ def add_book():
 def signin():
     return render_template('signin.html')
 
-@app.route('/Cart')
-def cart():
-    return render_template('cart.html')
-
 def connect_db():
     return sqlite3.connect('admin.db')
 
