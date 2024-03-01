@@ -41,6 +41,38 @@
                     <a href="afeedback" class="list-group-item list-group-item-action">Feedback</a>
                 </div>
             </div>
+            <!-- Main Content -->
+            <div class="col-md-9">
+
+                <!-- Feedback Details -->
+                <div class="mt-4">
+                    <h3>Order Details</h3>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Id</th>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Phone</th>
+                                <th>Address</th>
+                                <th>Pincode</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for row in order_data %}
+                            <tr>
+                                <td>{{ row[0] }}</td>
+                                <td>{{ row[1] }}</td>
+                                <td>{{ row[2] }}</td>
+                                <td>{{ row[3] }}</td>
+                                <td>{{ row[4] }}</td>
+                                <td>{{ row[5] }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
 

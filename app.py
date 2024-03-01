@@ -188,7 +188,12 @@ def add_stationary():
 
 @app.route('/aorders')
 def aorders():
-    return render_template('aorders.html')
+    conn = sqlite3.connect('admin.db')
+    cursor = conn.cursor()
+    cursor.execute("SELECT id,name, email, phone, address, zipcode FROM orders")
+    order_data = cursor.fetchall()
+    conn.close()
+    return render_template('aorders.html',order_data=order_data)
 
 @app.route('/afeedback')
 def afeedback():
