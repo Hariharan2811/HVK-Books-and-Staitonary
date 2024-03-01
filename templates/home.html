@@ -47,10 +47,15 @@
             </svg>
             
           </a>
-          
+          <div>
+            {% if name %}
+                <p style="color: #55d615;">Hello, {{ name }}!</p>
+                <a href="/logout"><button class="btn p-2 my-lg-0 my-2">Logout</button></a>
+            {% else %}
+                <a href="/login"><button class="btn p-2 my-lg-0 my-2">Login</button></a>
+            {% endif %}
         </div>
-        <a href="login"><button class="btn p-2 my-lg-0 my-2">👤</button></a>
-      </div>
+
   </nav>
 
 

@@ -25,9 +25,26 @@ def fetch_books():
     connection.close()
     return books
 
+
 @app.route('/home')
 def Home():
-    return render_template('home.html',)
+    sqlconnection= sqlite3.connect('admin.db')
+    sqlconnection.row_factory=sqlite3.Row
+    cur=sqlconnection.cursor()
+    data=cur.fetchone()
+    if (data):
+        session['name']=data["username"]
+
+    return render_template('home.html', name=session['name'])
+
+# Logout route
+@app.route('/logout')
+def logout():
+    # Clear the session
+    session.clear()
+    
+    # Redirect to the login page after logout
+    return redirect(url_for('login'))
 
 @app.route('/Books')
 def Books():
@@ -114,11 +131,11 @@ def log():
           session['name']=data["username"] 
           session['password']=data["password"] 
           flash("Welcome to HVK ","logged")
-          return redirect("/")
+          return render_template("home.html",name=name)
         else:
             flash("Invalid Username and Password","danger")
             return redirect('/login')
-    return redirect('/')
+    return redirect('/home')
 
 @app.route('/admin')
 def admin():
