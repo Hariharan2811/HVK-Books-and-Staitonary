@@ -2,7 +2,8 @@
 
 Welcome to HVK Books & Stationary! This repository contains the codebase for an online platform where administrators can manage books and stationary inventory. The platform is built using HTML, CSS, JavaScript, Flask, SQLite3, and hosted on Azure services including Resource Group, Virtual Network, Web App, and Monitor.
 
-Table of Contents
+Table of Contents:-
+
 Technologies Used
 
 Team Members
@@ -17,23 +18,18 @@ Monitoring
 
 Technologies Used
 
-Frontend:
+Frontend:-
 HTML
-
 CSS
-
 JavaScript
-
 Bootstrap
 
-Backend:
+Backend:-
 Python
-
 Flask
-
 SQLite
 
-Team Members
+Team Members:-
 Kowshick Ram Singh Cloud Deployment
 
 Sri Gopika Frontend Developer
@@ -42,28 +38,29 @@ Hariharan Backend Developer
 
  Vijayalakshmi Tester
 
-Azure Services Integration
+Azure Services Integration:-
 This project leverages various Azure services to ensure scalability, reliability, and performance.
 
-Resource Group:
+Resource Group:-
 Organizes and manages Azure resources efficiently.
 
-Virtual Network:
+Virtual Network:-
 Provides a secure and isolated network environment for the project.
 
-Web App:
+Web App:-
 Hosts the e-commerce platform using Flask for the backend and HTML/CSS/JS for the frontend.
 
-Virtual Network Integration:
+Virtual Network Integration:-
 Ensures secure communication between the web app and other Azure resources.
 
-Language(AI Service):
+Language(AI Service):-
 AI Service which is used for chatbot
 
-Monitor:
+Monitor:-
 Monitors the performance and health of the application, helping in proactive issue resolution.
 
-screenshort
+screenshort:-
+
 ![Screenshot 2024-03-01 163212](https://github.com/Hariharan2811/HVK-Books-and-Staitonary/assets/153824797/df27c131-4dcc-4149-a15c-f7c19a9990b3)
 
 ![Screenshot 2024-03-01 163615](https://github.com/Hariharan2811/HVK-Books-and-Staitonary/assets/153824797/da1ee1dd-a3fb-4659-8efd-355cbbed687a)
