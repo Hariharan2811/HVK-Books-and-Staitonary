@@ -14,6 +14,7 @@ body {
   min-height: 100vh;
   width: 100%;
   padding: 0 10px;
+  position: relative; /* Added to ensure proper positioning of background */
 }
 
 body::before {
@@ -55,9 +56,8 @@ h2 {
 
 .input-field label {
   position: absolute;
-  top: 50%;
+  top: -10px; /* Adjusted position to align with input */
   left: 0;
-  transform: translateY(-50%);
   color: #fff;
   font-size: 16px;
   pointer-events: none;
@@ -76,9 +76,8 @@ h2 {
 
 .input-field input:focus~label,
 .input-field input:valid~label {
+  top: -20px; /* Adjusted position to align with input */
   font-size: 0.8rem;
-  top: 10px;
-  transform: translateY(-120%);
 }
 
 .forget {
